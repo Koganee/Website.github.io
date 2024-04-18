@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Roderick Barker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body id = "body4">
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="file:///C:/Users/Aaron/Website%20For%20Books/Website%20For%20Books/.vscode/aboutStuff.html">About</a>
+            <a href="file:///C:/Users/Aaron/Website%20For%20Books/Website%20For%20Books/.vscode/aboutMovies.html">Movies</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    
+        <button class="openbtn" onclick="openNav()">&#9776; More About Roderick Barker</button>
+        
+        <header id = "nameAuthor">Roderick Barker
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Aaron/Website%20For%20Books/Website%20For%20Books/.vscode/frontStuff.html" id = "home">Home</a></li>
+                <li><a href="#about" id = "about">About</a></li>
+                <li><a href="#contact" id = "contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="section-inner">
+    </div>
+    <h2 id = "moviesFa">My Favourite Movies:<h2>
+    <div id = "container">
+        <h1 id = "title4">Killer Klowns From Outer Space</h1>
+        <img src="c:\Users\Aaron\Downloads\KKFOS.jpg" style="width:250px;height:300px;" id = "KKFOS">
+       
+        <h2 id = "title2">A Clockwork Orange</h2>
+        <img src="c:\Users\Aaron\Downloads\CO.jpg" style="width:250px;height:300px;" id = "Chernobog" onclick="classicalSong()">
+        
+        <h3 id = "title3">Hot Fuzz</h3>
+        <img src="c:\Users\Aaron\Downloads\HF.jpg" style="width:250px;height:300px;" id = "Police" onclick="police()">
+        <h3 id = "title5">Oppenheimer</h4>
+        <img src="c:\Users\Aaron\Downloads\il_1080xN.4900691314_fu21.avif" style="width:250px;height:300px;" id = "Oppenheimer" onclick="police()">
+    </div>
+    <img src="c:\Users\Aaron\Downloads\pngwing.com(1).png" style="width:100px;height:100px;" id = "lasGun" onclick="laser()">
+    <picture hidden id = "lasGunE">
+        <img src="c:\Users\Aaron\Downloads\mdsqsk1t2iiss1c3ofheeqq2t7.png" style="width:120px;height:100px;" id = "lasGunEffect">
+    </picture>
+
+
+    </body>
+    <script>
+        function openNav() {
+            document.getElementById("mySidepanel").style.width = "310px";
+        }
+      
+      /* Set the width of the sidebar to 0 (hide it) */
+        function closeNav() {
+            document.getElementById("mySidepanel").style.width = "0";
+        } 
+        function laser()
+        {
+            var snd = new Audio("c:\\Users\\Aaron\\Downloads\\laser-gun-81720.mp3");
+            snd.play();
+            document.getElementById("KKFOS").style.borderColor = "green";
+            document.getElementById("lasGunE").removeAttribute("hidden");
+            setTimeout(() => {document.getElementById("lasGunE").setAttribute("hidden", "hidden");}, 1000);
+        }
+        function classicalSong()
+        {
+            var snd = new Audio("c:\\Users\\Aaron\\Downloads\\violin-lose-4-185125.mp3");
+            snd.play();
+        }
+        function police()
+        {
+            document.getElementById('Police').style.animation = ('flash 4s');
+            setTimeout(function(){
+                document.getElementById('Police').style.animation = '';
+            }, 4000);
+        }
+        </script>
+</html>

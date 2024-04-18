@@ -1,0 +1,345 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    background-image: url('c:\\Users\\Aaron\\Downloads\\Tsunami_by_hokusai_19th_century.jpg');
+}
+#nameAuthor
+{
+    color: #00a2ff;
+    font-size: 25px;
+    text-shadow:  0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+#home
+{
+    color: #00a2ff;
+    font-size: 25px;
+    text-shadow:  0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+#about
+{
+    color: #00a2ff;
+    font-size: 25px;
+    text-shadow:  0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+#contact
+{
+    color: #00a2ff;
+    font-size: 25px;
+    text-shadow:  0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+#body3 {
+    margin: 0;
+    margin-top: 50px;
+    background-image: url('C:\\Users\\Aaron\\Downloads\\a5ccc1ac-623d-4397-b364-8c9a57603809.png');
+}
+#body4 {
+    background-image: url('c:\\Users\\Aaron\\Downloads\\CinemaBackground.jpg');
+}
+header {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #0769a1;
+}
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+header li {
+    display: inline;
+    top: 00;
+    margin-left: 30px;
+    color: #0769a1;
+    text-shadow:  0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+body
+{
+    background-color: rgb(15, 58, 173);
+}
+audio
+{
+    position: fixed;
+    bottom: 30px;
+    width: 20%;
+}
+h2
+{
+    top: 80px;
+    margin-left: 50px;
+    color: #0769a1;
+    text-shadow:  0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+#title
+{
+    position: absolute;
+    top: 125px;
+    margin-left: 50px;
+    color: #0769a1;
+    font-size: 25px;
+    text-shadow:  0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+#RayleighFront
+{
+    position: absolute;
+    top: 200px;
+    margin-left: 50px;
+    border-radius: 10px;
+    border-color: #0769a1;
+    border: 5px solid #0769a1;
+}
+#title1
+{
+    position: absolute;
+    top: 35px;
+    margin-left: 550px;
+    color: #0769a1;
+    font-size: 25px;
+    text-shadow:  0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+#Rayleigh
+{
+    position: absolute;
+    top: 100px;
+    margin-left: 550px;
+    border-radius: 10px;
+    border-color: #0769a1;
+    border: 5px solid #0769a1;
+}
+#KKFOS
+{
+    position: absolute;
+    top: 100px;
+    margin-left: 550px;
+    border-radius: 10px;
+    border-color: #0769a1;
+    border: 5px solid #0769a1;
+}
+#title2
+{
+    position: absolute;
+    top: 35px;
+    margin-left: 850px;
+    color: #0769a1;
+    font-size: 25px;
+    text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+
+}
+#title3
+{
+    position: absolute;
+    top: 35px;
+    margin-left: 1150px;
+    color: #0769a1;
+    font-size: 25px;
+    text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+
+}
+#title5
+{
+    position: absolute;
+    top: 435px;
+    margin-left: 1150px;
+    color: #0769a1;
+    font-size: 25px;
+    text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+
+}
+#container {
+    position: relative;
+}
+#Rayleigh1
+{
+    position: absolute;
+    top: 100px;
+    margin-left: 150px;
+}
+#Rayleigh2
+{
+    position: absolute;
+    top: 1900px;
+    margin-left: 150px;
+}
+#Chernobog
+{
+    position: absolute;
+    top: 100px;
+    margin-left: 850px;
+    border-radius: 10px;
+    border-color: #0769a1;
+    border: 5px solid #0769a1;
+}
+#Hills
+{
+    position: absolute;
+    top: 100px;
+    margin-left: 1150px;
+    border-radius: 10px;
+    border-color: #0769a1;
+    border: 5px solid #0769a1;
+}
+#Cherno1
+{
+    position: absolute;
+    top: 100px;
+    margin-left: 150px;
+}
+#Cherno2
+{
+    position: absolute;
+    top: 1900px;
+    margin-left: 150px;
+}
+#Cherno3
+{
+    position: absolute;
+    top: 3700px;
+    margin-left: 150px;
+}
+#aboutRoderick
+{
+    position: absolute;
+    top: 100px;
+    margin-left: 800px;
+    color: #0769a1;
+    font-size: 25px;
+    text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+
+}
+#p1
+{
+    position: absolute;
+    top: 150px;
+    margin-left: 500px;
+    color: #000000;
+    font-size: 25px;
+    text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+#p2
+{
+    position: absolute;
+    top: 250px;
+    margin-left: 500px;
+    color: #000000;
+    font-size: 25px;
+    text-shadow: 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+.sidepanel {
+    height: 1000px; /* Specify a height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 50px;
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+    background-image: url('c:\\Users\\Aaron\\Downloads\\WhitbeckHale.png');
+    border: 5px solid #00a2ff;
+}
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+  /* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+  
+  /* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+  /* Style the button that is used to open the sidepanel */
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+  
+.openbtn:hover {
+    background-color: #444;
+}
+#booksH
+{
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #0769a1;
+    text-shadow:  0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+#title4
+{
+    position: absolute;
+    top: 45px;
+    margin-left: 545px;
+    color: #0769a1;
+    font-size: 20px;
+    text-shadow:  0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+#moviesFa
+{
+    margin-top: 100px;
+    margin-left: 600px;
+    color: #0769a1;
+    text-shadow:  0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255), 0 0 1px rgb(255, 255, 255);
+}
+#lasGun
+{
+    position: absolute;
+    top: 450px;
+    margin-left: 400px;
+    
+}
+#lasGunEffect
+{
+    position: absolute;
+    top: 423px;
+    margin-left: 450px;
+    color: green;
+}
+#Police
+{
+    position: absolute;
+    top: 100px;
+    margin-left: 1150px;
+    border-radius: 10px;
+    border-color: #0769a1;
+    border: 5px solid #0769a1;
+}
+#Oppenheimer
+{
+    position: absolute;
+    top: 500px;
+    margin-left: 1150px;
+    border-radius: 10px;
+    border-color: #0769a1;
+    border: 5px solid #0769a1;
+}
+@keyframes flash {
+    0% {box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;}
+    25% {box-shadow: rgba(255, 0, 0, 0.8) 0 0 90px 33px;}
+    50% {box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;}
+    75% {box-shadow: rgba(255, 0, 0, 0.8) 0 0 90px 33px;}
+    100% {box-shadow: rgba(72, 135, 202, 0.8) 0 0 90px 33px;}
+  }

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="style.css">
+        <title>Roderick Barker - About</title>
+    </head>
+
+    <body>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="file:///C:/Users/Aaron/Website%20For%20Books/Website%20For%20Books/.vscode/aboutStuff.html">About</a>
+            <a href="file:///C:/Users/Aaron/Website%20For%20Books/Website%20For%20Books/.vscode/aboutMovies.html">Movies</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    
+        <button class="openbtn" onclick="openNav()">&#9776; More About Roderick Barker</button>
+       
+        <header id = "nameAuthor">Roderick Barker
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/Aaron/Website%20For%20Books/Website%20For%20Books/.vscode/frontStuff.html" id = "home">Home</a></li>
+                <li><a href="file:///C:/Users/Aaron/Website%20For%20Books/Website%20For%20Books/.vscode/aboutStuff.html" id = "about">About</a></li>
+                <li><a href="#contact" id = "contact">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+
+        <h1 id = "aboutRoderick">About Roderick Barker</h1>
+        <p id = "p1">Roderick Barker is a 20 year old author from Ireland. In his free time, he enjoys travelling, reading, and writing. His favourite book genres are fantasy and horror. </p>
+        <p id = "p2">Sometimes he watches movies too, and finds anything with good music and well-done cinematography enjoyable. Oppenheimer is his favourite movie that has come out recently.</p> 
+        
+
+    </body>
+    <script>
+    function openNav() {
+        document.getElementById("mySidepanel").style.width = "310px";
+    }
+  
+  /* Set the width of the sidebar to 0 (hide it) */
+    function closeNav() {
+        document.getElementById("mySidepanel").style.width = "0";
+    } 
+    </script>
+</html>
